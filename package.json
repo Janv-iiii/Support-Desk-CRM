@@ -1,0 +1,19 @@
+{
+  "name": "support-crm",
+  "version": "1.0.0",
+  "description": "Customer Support Ticketing CRM System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "sql.js": "^1.14.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
